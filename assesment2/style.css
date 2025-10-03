@@ -11,7 +11,7 @@ p{
    text-align: center;
    margin-bottom: 50px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   color:white;
+   color:rgb(0, 0, 0);
 }
 h1 {
   text-align: center;
@@ -19,7 +19,15 @@ h1 {
   color: white;
 }
 h2{
-    color: black;
+    color: rgb(255, 255, 255);
+}
+h4 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#country-details-title {
+    color: #121212;
 }
 
 .controls {
@@ -77,6 +85,7 @@ button:hover {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  color: #121212;
 }
 
 .dark-mode {
