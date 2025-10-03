@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: url(https://th.bing.com/th/id/R.b80a479bb96bf94a463cf4bd43b8dcf0?rik=akvpVJifvR9MMQ&pid=ImgRaw&r=0);
+  color: #333;
+  
+}
+
+p{
+   text-align: center;
+   margin-bottom: 50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color:white;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+h2{
+    color: black;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  margin: 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+  transition: 0.3s;
+}
+button:hover {
+  background: #555;
+}
+
+#countries-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.country-card {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.country-card:hover {
+  transform: scale(1.05);
+}
+
+.country-card img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+#country-details {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.dark-mode {
+  background: #121212;
+  color: #f1f1f1;
+}
+.dark-mode .country-card {
+  background: #1e1e1e;
+}
+.dark-mode button {
+  background: #f1f1f1;
+  color: #121212;
+}
+.cont{
+    color: black;
+}
+

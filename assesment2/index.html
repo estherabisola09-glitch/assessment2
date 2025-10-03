@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🌍 Welcome to Country Explorer</h1>
+  <p>Explore cultures, landscapes, and histories of countries worldwide...</p>
+
+  <div class="controls">
+    <input type="text" placeholder="🔍 Search by country name" id="searchInput">
+    <select id="regionSelect">
+      <option value="">🌎 Filter by Region</option>
+      <option value="Africa">Africa</option>
+      <option value="Americas">Americas</option>
+      <option value="Asia">Asia</option>
+      <option value="Europe">Europe</option>
+      <option value="Oceania">Oceania</option>
+    </select>
+    <button id="darkModeBtn">🌙 Dark Mode</button>
+  </div>
+
+  <section id="countries">
+    <h2>Countries</h2>
+    <div id="countries-list"></div>
+  </section>
+
+  <section id="country-details">
+    <h2>Country Details</h2>
+    <div id="details-content">
+      <p class="cont">Click a country to view details here...</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
